@@ -29,11 +29,11 @@ def check_kb_chacha():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
     
-    send_telegram_msg("🚗 **بوت فحص السيارات الكورية شغال الآن!**\nجاري مراقبة KB ChaChaCha لسيارات تحت الـ 1,500$...")
+    send_telegram_msg("🚗 **بوت فحص السيارات الكورية شغال الآن!**\nجاري مراقبة KB ChaChaCha لسيارات تحت الـ 7,000$...")
     
     while True:
         try:
-            print("Checking cars under 2,000,000 KRW...")
+            print("Checking cars under 9,500,000 KRW...")
         except Exception as e:
             print(f"Scraping error: {e}")
         
